@@ -20,5 +20,5 @@ from form.base.views import home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home),
+    path('base/', include('base.urls')),
 ]
