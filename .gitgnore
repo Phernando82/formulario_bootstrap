@@ -1,2 +1,7 @@
 # Enviroments
 .env
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
