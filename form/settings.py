@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['https://fierce-reaches-87064.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://fierce-reaches-87064.herokuapp.com/']
 
 AUTH_USER_MODEL = 'base.User'
 
